@@ -1,0 +1,19 @@
+{
+  "name": "the-wrong-kind-of-fast-2020",
+  "version": "0.1.0",
+  "description": "[PRESENTATION] The Wrong Kind of Fast (2020 edition)",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020.git"
+  },
+  "author": "Scott Davis <scott@thirstyhead.com> (https://thirstyhead.com/)",
+  "license": "CC-BY-4.0",
+  "bugs": {
+    "url": "https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020/issues"
+  },
+  "homepage": "https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020#readme"
+}
