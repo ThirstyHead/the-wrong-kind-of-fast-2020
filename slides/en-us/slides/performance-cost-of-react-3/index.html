@@ -1,0 +1,26 @@
+      <section>
+        <h2 hidden aria-hidden="false">The Performance Cost of React</h2>
+        <figure>
+          <a href="https://malloc.fi/performance-cost-of-server-side-rendered-react-node-js">
+          <img src="performance-cost-of-react-3.png"
+               alt="The Performance Cost of React"
+               class="contain"
+               data-src="https://malloc.fi/performance-cost-of-server-side-rendered-react-node-js">
+          </a>
+
+          <figcaption>
+            <p>
+            And here are the results. He tested with 1 concurrent user, 5 concurrent users, 50, 100, and 250. For throughput, higher bars on this graph represent better results. 
+            </p>
+
+            <p>
+              Notice the shortest bar on the graph? The green one, with roughly 300 requests per second? That's React. To be fair, that's React in dev mode. The author noticed the issue, and ran React in prod mode as well.
+            </p>
+
+            <p>
+              Notice the second shortest bar on the graph? That's React in prod mode. It averages roughly 1600 requests per second. While that might truly be "fast enough" for you, raw JavaScript will give you 1,000 more requests per second, and static HTML is more than twice as fast, giving you over 2,000 more requests per second than React.
+            </p>
+
+          </figcaption>
+        </figure>
+      </section>
