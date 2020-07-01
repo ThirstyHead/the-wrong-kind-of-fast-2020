@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020/issues"
   },
-  "homepage": "https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020#readme"
+  "homepage": "https://github.com/ThirstyHead/the-wrong-kind-of-fast-2020#readme",
+  "dependencies": {
+    "talk-o-vision": "github:thirstyhead/talk-o-vision"
+  }
 }
